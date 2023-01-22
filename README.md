@@ -2,6 +2,10 @@
 
 Go LINQ Where
 
+## Installation
+
+	go get github.com/mg52/splitter@v1.0.1
+
 ## Usage: 
 ```go
 package main
