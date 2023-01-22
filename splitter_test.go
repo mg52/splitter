@@ -1,7 +1,6 @@
 package splitter
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -60,7 +59,7 @@ func TestWhere(t *testing.T) {
 	}
 	actual, err := Where(temperatures, clauses)
 	if err != nil {
-		fmt.Println(err.Error())
+		t.Errorf(err.Error())
 	}
 
 	var expected []Temperature
