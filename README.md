@@ -74,5 +74,6 @@ func main() {
 	}
 
 	fmt.Println(actual)
+	// output: [{3 94.9 Fahrenheit} {4 80.2 Fahrenheit}]
 }
 ```
